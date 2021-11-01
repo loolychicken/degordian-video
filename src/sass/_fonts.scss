@@ -1,0 +1,26 @@
+$font-path: "../fonts";
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("#{$font-path}/fontawesome-webfont.eot?v=4.0.3");
+  src: url("#{$font-path}/fontawesome-webfont.eot?#iefix&v=4.0.3")
+      format("embedded-opentype"),
+    url("#{$font-path}/fontawesome-webfont.woff?v=4.0.3") format("woff"),
+    url("#{$font-path}/fontawesome-webfont.ttf?v=4.0.3") format("truetype"),
+    url("#{$font-path}/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "UniNeueRegular";
+  src: url("#{$font-path}/UniNeueRegular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "UniNeueBook";
+  src: url("#{$font-path}/UniNeueBook.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

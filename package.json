@@ -1,0 +1,30 @@
+{
+  "name": "degordian",
+  "version": "1.0.0",
+  "description": "Video section",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivana",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "sass-autoprefixer": "^1.0.1"
+  },
+  "keywords": [
+    "test"
+  ]
+}
